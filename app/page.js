@@ -1,6 +1,5 @@
 import Link from "next/link"
-import GitHub from "./student-info"
-import StudentInfo from "./student-info"
+import HomePage from "./student-info"
 
 
 export default function Home() {
@@ -9,15 +8,14 @@ export default function Home() {
       <h6>
         CPRG 306: Web Development 2 - Assignments  
       </h6>
-      <h1>Miles Dolphy-King,
+      <h2>Miles Dolphy-King,
           CPRG306-E
-      </h1>
-      <StudentInfo />
-      <h1>Week 2</h1>
-      <Link href="week2">Shopping List</Link>
-      <h1>Week 3</h1>
-      <h1>Week 4</h1>
-      
+      </h2>    
+      <Link href="week2">Proto Shopping List</Link>
+      <h1><Link href="week3">Shopping List</Link></h1>
+      <h1><Link href="week4"> Week 4</Link></h1>
+      <HomePage />      
+
     </main>
   )
 }
