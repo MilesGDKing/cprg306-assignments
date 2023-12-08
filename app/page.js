@@ -13,7 +13,8 @@ export default function Home() {
       </h2>    
       <Link href="week2">Proto Shopping List</Link>
       <h1><Link href="week3">Shopping List</Link></h1>
-      <h1><Link href="week4"> Week 4</Link></h1>
+      <h1><Link href="week4"> Add new shopping list item</Link></h1>
+      <h1><Link href="week5"> Week 5</Link></h1>
       <HomePage />      
 
     </main>
